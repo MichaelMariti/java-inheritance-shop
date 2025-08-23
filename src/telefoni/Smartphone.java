@@ -28,7 +28,7 @@ public class Smartphone extends Prodotto{
         this.memoria = memoria;
     }
 
-    public void stampaSmartphone() {
-        System.out.println(super.toString() + "Codice IMEI: " + IMEI + "Quantita di memoria: " + memoria);
+    public String toString() {
+        return super.toString() + "Codice IMEI: " + IMEI + ". Quantita di memoria: " + memoria;
     }
 }

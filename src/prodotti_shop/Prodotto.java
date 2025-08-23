@@ -68,7 +68,7 @@ public class Prodotto {
         this.iva = iva;
     }
 
-    public double prezzoConIva() {
+    public double getPrezzoConIva() {
         return prezzo + (prezzo * iva / 100);
     }
 

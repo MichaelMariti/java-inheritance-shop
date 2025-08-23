@@ -30,6 +30,6 @@ public class Televisori extends Prodotto{
     // }
 
     public void stampaTelevisore() {
-        System.out.println(super.toString() + "Dimensioni del televisore: " + dimensioni + "pollici, " + "È una tv smart? " + (smart ? "Smart" : "Non smart"));
+        System.out.println(super.toString() + "Dimensioni del televisore: " + dimensioni + "pollici, " + ". È una tv smart? " + (smart ? "Smart" : "Non smart"));
     }
 }
