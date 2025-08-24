@@ -29,6 +29,6 @@ public class Cuffie extends Prodotto{
     // }
 
     public void stampaCuffie() {
-        System.out.println(this.super + ", Colore: " + colore + ", Modello: " + (wireless ? "Wireless" : "Cavo AUX"));
+        System.out.println(super.toString() + ", Colore: " + colore + ", Modello: " + (wireless ? "Wireless" : "Cavo AUX"));
     }
 }

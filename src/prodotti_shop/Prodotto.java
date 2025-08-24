@@ -72,8 +72,12 @@ public class Prodotto {
         return prezzo + (prezzo * iva / 100);
     }
 
-    public void stampaRisultato() {
-        System.out.println("Codice prodotto: " + codiceProdotto + "Nome: " + nome + "Marca: " + marca + "Prezzo: Euro" + prezzo + "Iva: " + iva + "%" );
+    public String stampaRisultato() {
+        return "Codice prodotto: " + codiceProdotto + " Nome: " + nome + " Marca: " + marca + " Prezzo: Euro" + prezzo + " Iva: " + iva + "%";
+    }
+
+    public String toString() {
+        return stampaRisultato();
     }
     
 
